@@ -14,7 +14,8 @@ public class SHA256Util {
 	    }
 
 	   	mDigest.update(txt.getBytes());
-	     
+		
+		
 	   	byte[] msgStr = mDigest.digest() ;
 	    for(int i=0; i < msgStr.length; i++){
 	        byte tmpStrByte = msgStr[i];
